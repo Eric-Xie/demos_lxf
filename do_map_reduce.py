@@ -28,7 +28,6 @@ def str2float(s):
     return reduce(f_mul, map(char2num, l)) + reduce(f_div, map(char2num, r[::-1])) / 10
 
 def main():
-    print('Hello world!')
 
     print("------Demo 1-----")
     L1 = ['adam', 'LISA', 'barT']
